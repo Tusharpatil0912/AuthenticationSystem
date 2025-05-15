@@ -6,7 +6,7 @@ const AuthRouter = require('./Routes/AuthRouter');
 
 require('dotenv').config();
 require('./Models/db');
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 app.get('/test', (req, res) => {
     res.send('Test');
